@@ -1,0 +1,51 @@
+# Xcode
+#
+Secrets.xcconfig
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.bundle.resources
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+project.xcworkspace/xcshareddata/swiftpm/configuration/control-cache
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+# Kept for reference but usually ignored:
+# xcshareddata/
+
+# Swift Package Manager
+#
+.build/
+.swiftpm/xcode/package.resolved
+.swiftpm/xcode/xcuserdata/
+
+# macOS
+#
+.DS_Store
+*.swp
+*.lock
+profile
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Bundle
+#
+.bundle/
+vendor/bundle/
+
+# CocoaPods (falls verwendet)
+#
+# Pods/
+# *.xcworkspace
+
+# Carthage (falls verwendet)
+#
+# Carthage/Build/

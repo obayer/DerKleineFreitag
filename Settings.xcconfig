@@ -1,0 +1,11 @@
+// Project Settings
+//
+// This file is public on GitHub.
+// Personal settings (like DEVELOPMENT_TEAM) should be stored in the file
+// 'Secrets.xcconfig', which is ignored by git.
+
+// Default value (empty for open source)
+DEVELOPMENT_TEAM =
+
+// Attempt to load local secrets (optional)
+#include? "Secrets.xcconfig"

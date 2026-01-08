@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5C04CE2F0FBED20061FACD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5C04CD2F0FBED20061FACD /* WidgetKit.framework */; };
+		4F5C04D02F0FBED20061FACD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5C04CF2F0FBED20061FACD /* SwiftUI.framework */; };
+		4F5C04DB2F0FBED40061FACD /* DerKleineFreitagWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4F5C04CB2F0FBED20061FACD /* DerKleineFreitagWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F723CB82F0FCEDE00C87205 /* DerKleineFreitagKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F723CB72F0FCEDE00C87205 /* DerKleineFreitagKit */; };
+		4F723CBA2F0FCEE600C87205 /* DerKleineFreitagKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F723CB92F0FCEE600C87205 /* DerKleineFreitagKit */; };
+		4F723CCE2F0FDDB000C87205 /* DerKleineFreitagUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F723CCC2F0FDDB000C87205 /* DerKleineFreitagUI.swift */; };
+		4F723CCF2F0FDDB000C87205 /* DerKleineFreitagUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F723CCC2F0FDDB000C87205 /* DerKleineFreitagUI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F5C04D92F0FBED40061FACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F5C04A82F0FBD9B0061FACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F5C04CA2F0FBED20061FACD;
+			remoteInfo = DerKleineFreitagWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F5C04E02F0FBED40061FACD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F5C04DB2F0FBED40061FACD /* DerKleineFreitagWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F723CCB2F0FDD2400C87205 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F5C04B02F0FBD9B0061FACD /* DerKleineFreitag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DerKleineFreitag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5C04CB2F0FBED20061FACD /* DerKleineFreitagWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DerKleineFreitagWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5C04CD2F0FBED20061FACD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4F5C04CF2F0FBED20061FACD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4F723CB62F0FCCED00C87205 /* DerKleineFreitagKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DerKleineFreitagKit; sourceTree = "<group>"; };
+		4F723CCC2F0FDDB000C87205 /* DerKleineFreitagUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DerKleineFreitagUI.swift; sourceTree = "<group>"; };
+		4F723CFE2F0FE91600C87205 /* Settings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Settings.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4F5C04DC2F0FBED40061FACD /* Exceptions for "DerKleineFreitagWidget" folder in "DerKleineFreitagWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4F5C04CA2F0FBED20061FACD /* DerKleineFreitagWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4F5C04B22F0FBD9B0061FACD /* DerKleineFreitag */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DerKleineFreitag;
+			sourceTree = "<group>";
+		};
+		4F5C04D12F0FBED20061FACD /* DerKleineFreitagWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F5C04DC2F0FBED40061FACD /* Exceptions for "DerKleineFreitagWidget" folder in "DerKleineFreitagWidgetExtension" target */,
+			);
+			path = DerKleineFreitagWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5C04AD2F0FBD9B0061FACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F723CB82F0FCEDE00C87205 /* DerKleineFreitagKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5C04C82F0FBED20061FACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5C04D02F0FBED20061FACD /* SwiftUI.framework in Frameworks */,
+				4F5C04CE2F0FBED20061FACD /* WidgetKit.framework in Frameworks */,
+				4F723CBA2F0FCEE600C87205 /* DerKleineFreitagKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5C04A72F0FBD9B0061FACD = {
+			isa = PBXGroup;
+			children = (
+				4F723CFE2F0FE91600C87205 /* Settings.xcconfig */,
+				4F723CB62F0FCCED00C87205 /* DerKleineFreitagKit */,
+				4F723CCD2F0FDDB000C87205 /* DerKleineFreitagUI */,
+				4F5C04B22F0FBD9B0061FACD /* DerKleineFreitag */,
+				4F5C04D12F0FBED20061FACD /* DerKleineFreitagWidget */,
+				4F5C04CC2F0FBED20061FACD /* Frameworks */,
+				4F5C04B12F0FBD9B0061FACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5C04B12F0FBD9B0061FACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5C04B02F0FBD9B0061FACD /* DerKleineFreitag.app */,
+				4F5C04CB2F0FBED20061FACD /* DerKleineFreitagWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5C04CC2F0FBED20061FACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F5C04CD2F0FBED20061FACD /* WidgetKit.framework */,
+				4F5C04CF2F0FBED20061FACD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F723CCD2F0FDDB000C87205 /* DerKleineFreitagUI */ = {
+			isa = PBXGroup;
+			children = (
+				4F723CCC2F0FDDB000C87205 /* DerKleineFreitagUI.swift */,
+			);
+			path = DerKleineFreitagUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5C04AF2F0FBD9B0061FACD /* DerKleineFreitag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5C04BB2F0FBD9C0061FACD /* Build configuration list for PBXNativeTarget "DerKleineFreitag" */;
+			buildPhases = (
+				4F5C04AC2F0FBD9B0061FACD /* Sources */,
+				4F5C04AD2F0FBD9B0061FACD /* Frameworks */,
+				4F5C04AE2F0FBD9B0061FACD /* Resources */,
+				4F5C04E02F0FBED40061FACD /* Embed Foundation Extensions */,
+				4F723CCB2F0FDD2400C87205 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F5C04DA2F0FBED40061FACD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4F5C04B22F0FBD9B0061FACD /* DerKleineFreitag */,
+			);
+			name = DerKleineFreitag;
+			packageProductDependencies = (
+				4F723CB72F0FCEDE00C87205 /* DerKleineFreitagKit */,
+			);
+			productName = DerKleineFreitag;
+			productReference = 4F5C04B02F0FBD9B0061FACD /* DerKleineFreitag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F5C04CA2F0FBED20061FACD /* DerKleineFreitagWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5C04DD2F0FBED40061FACD /* Build configuration list for PBXNativeTarget "DerKleineFreitagWidgetExtension" */;
+			buildPhases = (
+				4F5C04C72F0FBED20061FACD /* Sources */,
+				4F5C04C82F0FBED20061FACD /* Frameworks */,
+				4F5C04C92F0FBED20061FACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4F5C04D12F0FBED20061FACD /* DerKleineFreitagWidget */,
+			);
+			name = DerKleineFreitagWidgetExtension;
+			packageProductDependencies = (
+				4F723CB92F0FCEE600C87205 /* DerKleineFreitagKit */,
+			);
+			productName = DerKleineFreitagWidgetExtension;
+			productReference = 4F5C04CB2F0FBED20061FACD /* DerKleineFreitagWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5C04A82F0FBD9B0061FACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					4F5C04AF2F0FBD9B0061FACD = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					4F5C04CA2F0FBED20061FACD = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F5C04AB2F0FBD9B0061FACD /* Build configuration list for PBXProject "DerKleineFreitag" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F5C04A72F0FBD9B0061FACD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4F5C04B12F0FBD9B0061FACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5C04AF2F0FBD9B0061FACD /* DerKleineFreitag */,
+				4F5C04CA2F0FBED20061FACD /* DerKleineFreitagWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5C04AE2F0FBD9B0061FACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5C04C92F0FBED20061FACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5C04AC2F0FBD9B0061FACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F723CCE2F0FDDB000C87205 /* DerKleineFreitagUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5C04C72F0FBED20061FACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F723CCF2F0FDDB000C87205 /* DerKleineFreitagUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F5C04DA2F0FBED40061FACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F5C04CA2F0FBED20061FACD /* DerKleineFreitagWidgetExtension */;
+			targetProxy = 4F5C04D92F0FBED40061FACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F5C04B92F0FBD9C0061FACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F723CFE2F0FE91600C87205 /* Settings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99P3V9XCTU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F5C04BA2F0FBD9C0061FACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F723CFE2F0FE91600C87205 /* Settings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99P3V9XCTU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F5C04BC2F0FBD9C0061FACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayerwire.DerKleineFreitag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F5C04BD2F0FBD9C0061FACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayerwire.DerKleineFreitag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F5C04DE2F0FBED40061FACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DerKleineFreitagWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DerKleineFreitagWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayerwire.DerKleineFreitag.DerKleineFreitagWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F5C04DF2F0FBED40061FACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DerKleineFreitagWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DerKleineFreitagWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayerwire.DerKleineFreitag.DerKleineFreitagWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5C04AB2F0FBD9B0061FACD /* Build configuration list for PBXProject "DerKleineFreitag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5C04B92F0FBD9C0061FACD /* Debug */,
+				4F5C04BA2F0FBD9C0061FACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5C04BB2F0FBD9C0061FACD /* Build configuration list for PBXNativeTarget "DerKleineFreitag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5C04BC2F0FBD9C0061FACD /* Debug */,
+				4F5C04BD2F0FBD9C0061FACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5C04DD2F0FBED40061FACD /* Build configuration list for PBXNativeTarget "DerKleineFreitagWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5C04DE2F0FBED40061FACD /* Debug */,
+				4F5C04DF2F0FBED40061FACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F723CB72F0FCEDE00C87205 /* DerKleineFreitagKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DerKleineFreitagKit;
+		};
+		4F723CB92F0FCEE600C87205 /* DerKleineFreitagKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DerKleineFreitagKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4F5C04A82F0FBD9B0061FACD /* Project object */;
+}
